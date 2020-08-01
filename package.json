@@ -1,0 +1,31 @@
+{
+  "name": "api-ead",
+  "version": "0.0.1",
+  "description": "API de plataforma de ensino a distância",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcsmg/ead-api.git"
+  },
+  "keywords": [
+    "plataforma",
+    "EAD",
+    "daniel"
+  ],
+  "author": "Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielcsmg/ead-api/issues"
+  },
+  "homepage": "https://github.com/danielcsmg/ead-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0"
+  }
+}
